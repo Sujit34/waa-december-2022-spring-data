@@ -1,5 +1,6 @@
 package edu.miu.springdata1Assignment.entity;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
@@ -18,5 +19,6 @@ public class Category {
     private String name;
 
     @OneToMany(mappedBy = "category")
+    @JsonManagedReference
     private List<Product> products;
 }
