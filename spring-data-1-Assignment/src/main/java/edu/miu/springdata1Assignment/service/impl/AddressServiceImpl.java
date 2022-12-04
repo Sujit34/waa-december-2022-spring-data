@@ -2,7 +2,7 @@ package edu.miu.springdata1Assignment.service.impl;
 
 import edu.miu.springdata1Assignment.dto.AddressDto;
 import edu.miu.springdata1Assignment.entity.Address;
-import edu.miu.springdata1Assignment.controller.repository.AddressRepo;
+import edu.miu.springdata1Assignment.repository.AddressRepo;
 import edu.miu.springdata1Assignment.service.AddressService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

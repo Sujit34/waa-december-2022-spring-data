@@ -2,7 +2,7 @@ package edu.miu.springdata1Assignment.service.impl;
 
 import edu.miu.springdata1Assignment.dto.ReviewDto;
 import edu.miu.springdata1Assignment.entity.Review;
-import edu.miu.springdata1Assignment.controller.repository.ReviewRepo;
+import edu.miu.springdata1Assignment.repository.ReviewRepo;
 import edu.miu.springdata1Assignment.service.ReviewService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
