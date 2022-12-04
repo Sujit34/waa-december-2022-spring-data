@@ -2,7 +2,7 @@ package edu.miu.springdata1Assignment.service.impl;
 
 import edu.miu.springdata1Assignment.dto.CategoryDto;
 import edu.miu.springdata1Assignment.entity.Category;
-import edu.miu.springdata1Assignment.repository.CategoryRepo;
+import edu.miu.springdata1Assignment.controller.repository.CategoryRepo;
 import edu.miu.springdata1Assignment.service.CategoryService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

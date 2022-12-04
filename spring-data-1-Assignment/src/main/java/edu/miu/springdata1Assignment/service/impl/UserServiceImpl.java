@@ -2,7 +2,7 @@ package edu.miu.springdata1Assignment.service.impl;
 
 import edu.miu.springdata1Assignment.dto.UserDto;
 import edu.miu.springdata1Assignment.entity.User;
-import edu.miu.springdata1Assignment.repository.UserRepo;
+import edu.miu.springdata1Assignment.controller.repository.UserRepo;
 import edu.miu.springdata1Assignment.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

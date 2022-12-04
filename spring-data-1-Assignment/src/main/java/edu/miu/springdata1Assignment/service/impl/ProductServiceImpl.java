@@ -3,8 +3,8 @@ package edu.miu.springdata1Assignment.service.impl;
 import edu.miu.springdata1Assignment.dto.ProductDto;
 import edu.miu.springdata1Assignment.entity.Product;
 import edu.miu.springdata1Assignment.entity.Review;
-import edu.miu.springdata1Assignment.repository.ProductRepo;
-import edu.miu.springdata1Assignment.repository.ReviewRepo;
+import edu.miu.springdata1Assignment.controller.repository.ProductRepo;
+import edu.miu.springdata1Assignment.controller.repository.ReviewRepo;
 import edu.miu.springdata1Assignment.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
@@ -57,7 +57,7 @@ public class ProductServiceImpl implements ProductService {
     }
     @Override
     public List<Product> findByCategory_NameAndPriceLessThan(String name, double price){
-        return productRepo.findByCategory_NameAndPriceLessThan(name,price);
+        return productRepo.findByPriceLessThanAndCategory_Name(name,price);
     }
     @Override
     public List<Product> findByNameContaining(String name){

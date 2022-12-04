@@ -1,4 +1,4 @@
-package edu.miu.springdata1Assignment.repository;
+package edu.miu.springdata1Assignment.controller.repository;
 
 import edu.miu.springdata1Assignment.entity.Category;
 import org.springframework.data.repository.CrudRepository;
